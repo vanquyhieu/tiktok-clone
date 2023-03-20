@@ -1,0 +1,45 @@
+//Menu
+.menu-items{
+    width: 246px;
+    min-height: 100%;
+}
+
+//Menu-item
+.menu-item{
+    text-align: start;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    &.separate{
+        border-top-color: #838383;
+    }
+
+    &:hover{
+        background-color: #838383;
+    }
+}
+//headerMenu
+.header-menu{
+    position: relative;
+    height: 50px;
+}
+
+.header-btn{
+    width: 50px;
+    height: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+
+.header-title
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.menu-body{
+    overflow-y: auto;
+}
